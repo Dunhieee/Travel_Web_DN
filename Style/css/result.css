@@ -1,0 +1,24 @@
+.content_result{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 1.4rem;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+button{
+    background-color: #2064a0;
+    border: 1px solid #2064a0;
+    height: 40px;
+    width: 180px;
+    border-radius: 3px;
+}
+header .head:hover{
+    background-color: #2064a0;
+    color: #fff;
+    animation: 0;
+}

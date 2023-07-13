@@ -1,0 +1,319 @@
+/* Background của header */
+.wrapper {
+    position: relative;
+}
+.background {
+    margin-top: -150px;
+    width: 100%;
+    object-fit: cover;
+    height: 900px;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Nút điều hướng next, back */
+.banner_button {
+    border-radius: 50%;
+    border: 0.1px dashed var(--white-color);
+    font-size: 14px;
+    padding: 10px 15px;
+    background-color: transparent;
+}
+.banner_button:hover .banner_icon {
+    color: var(--text-color);
+}
+.banner_button:hover {
+    background-color: var(--white-color);
+    animation: fadeIn 0.5s;
+}
+.banner_icon {
+    color: var(--white-color);
+}
+.banner_button_left {
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+.banner_button_right {
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+/* Nội dung trong background */
+.banner_content {
+    position: absolute;
+    top: 40%;
+    margin-left: 46%;
+    color: var(--white-color);
+    font-size: 2.5rem;
+}
+.banner_Brand {
+    position: absolute;
+    top: 45%;
+    margin-left: 40%;
+    color: var(--white-color);
+    font-size: 4rem;
+}
+.banner_quanity_review {
+    position: absolute;
+    top: 52%;
+    margin-left: 60%;
+    color: var(--white-color);
+    font-size: 1.2rem;
+}
+/* CONTENTER */
+
+/* Hot tour */
+.content_hottour {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+.content_hottour_1,
+.content_hottour_2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    /* width: 1400px; */
+}
+/* Hot tour p1 */
+.content_hottour_items {
+    position: relative;
+    height: 450px;
+    top: 0px;
+    border: 1px solid #00000038;
+}
+.content_hottour_items:hover {
+    border: 1px solid var(--white-color);
+    border-radius: 3px;
+    box-shadow: 0px 3px 10px #00000038;
+    background-color: var(--white-color);
+}
+
+.content_items_1 {
+    position: relative;
+    top: 0px;
+    overflow: hidden;
+}
+
+.content_items_1_link {
+    text-decoration: none;
+    color: var(--text-color);
+}
+.content_item_1_img {
+    height: 240px;
+    width: 100%;
+    transition: transform 0.3s;
+}
+.content_items_1:hover .content_item_1_img {
+    transform: scale(1.05);
+}
+.content_item_1_note {
+    position: absolute;
+    top: 85%;
+    left: 10px;
+    color: var(--white-color);
+}
+.content_items_2 {
+    position: absolute;
+    /* border: 0.5px solid var(--white-color);
+    border-radius: 3px;
+    box-shadow: 0px 3px 10px #00000038;
+    background-color: var(--white-color); */
+    top: 250px;
+    /* width: 100%;
+    height: 200px; */
+}
+.content_item_2_title {
+    margin: 0 10px 0px 15px;
+}
+.content_item_2_title_link {
+    text-decoration: none;
+    color: var(--text-color);
+}
+.set_title_height {
+    height: 50px;
+    margin-bottom: 10px;
+}
+.content_items_3 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vehicle_plan {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 15px;
+    width: 200px;
+}
+.vehicle_plan_items {
+    margin-bottom: 10px;
+}
+.plan_icon {
+    color: #3b5ba6;
+}
+.vehicle_icon {
+    color: #3b5ba6;
+}
+.content_price {
+    list-style: none;
+    margin-right: 10px;
+    padding-left: 0;
+}
+.price_item {
+    margin-bottom: 10px;
+}
+.price_item_1 {
+    text-align: end;
+}
+.price_item_2 {
+    font-size: 1.3rem;
+    color: #c8781d;
+    font-weight: bold;
+    width: 100px;
+    text-align: end;
+}
+.Book {
+    color: var(--white-color);
+    background-color: #ff9800;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 30px;
+    font-size: 1.3rem;
+    position: absolute;
+    right: 10px;
+    top: 85px;
+    cursor: pointer;
+}
+/* Điểm đến nổi bật Hot_destination */
+.hot-destination_list_item {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #00000038;
+    border-radius: 3px;
+    height: 125px;
+}
+.content_title {
+    width: 70%;
+    margin: 20px auto 20px auto;
+    font-size: 1.8rem;
+    /* color: #3b5ba6; */
+    padding-left: 8px;
+    border-left: 20px solid #ff9800;
+}
+.hot-destination_intro {
+    width: 70%;
+    margin: 20px auto 20px auto;
+    font-size: 1.4rem;
+    line-height: 1.4;
+}
+.hot-destination_list {
+    display: flex;
+}
+.destination_item_img {
+    position: absolute;
+    width: 100%;
+    height: 125px;
+    transition: transform 0.3s;
+}
+.hot-destination_list_item:hover .destination_item_img {
+    transform: scale(1.1);
+}
+.box_text {
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    text-align: center;
+    cursor: pointer;
+}
+.destination_name {
+    color: var(--white-color);
+}
+/* HOT COMBO */
+.content_combo_1_item {
+    position: relative;
+    height: 400px;
+    font-size: 1.2rem;
+    border: 1px solid #00000038;
+    overflow: hidden;
+}
+.content_combo_1_item:hover {
+    border: 1px solid var(--white-color);
+    border-radius: 3px;
+    box-shadow: 0px 3px 10px #00000038;
+    background-color: var(--white-color);
+}
+.content_combo_1_clock {
+    font-size: 1.1rem;
+    position: absolute;
+    color: var(--white-color);
+    top: 170px;
+    left: 10px;
+    font-weight: 500;
+}
+.content_combo_1_img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    transition: transform 0.3s;
+}
+.content_combo_1_img:hover {
+    transform: scale(1.05);
+}
+.content_combo_1_title {
+    position: absolute;
+    top: 210px;
+    margin: 0 10px;
+}
+.content_combo_link {
+    color: var(--text-color);
+}
+.content_combo_1 {
+    display: flex;
+}
+.content_combo_1_left {
+    position: absolute;
+    top: 260px;
+    margin: 20px 0;
+    left: 10px;
+}
+.content_combo_1_right {
+    position: absolute;
+    top: 260px;
+    margin: 20px 0;
+    right: 10px;
+    text-align: end;
+}
+.left {
+    margin-bottom: 16px;
+}
+.right {
+    margin-bottom: 6px;
+}
+.p2_amount {
+    font-size: 1.6rem;
+    color: #c8781d;
+    font-weight: bold;
+}
+.hot_combo_book {
+    top: 345px;
+}
+
+/* CẨM NANG DU LỊCH */
+.content_guide {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    background-color: #fff;
+}
+.content_guide p {
+    font-size: 1.4rem;
+    line-height: 1.4;
+}

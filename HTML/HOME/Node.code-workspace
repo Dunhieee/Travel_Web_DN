@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../Node"
+		},
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../json_server"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "testing web"
+	}
+}

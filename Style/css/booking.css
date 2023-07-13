@@ -1,0 +1,350 @@
+.banner_main {
+    background-color: #2064a0;
+    width: 100%;
+    height: 100px;
+    margin-top: -100px;
+}
+header .head:hover {
+    background-color: #2064a0;
+    color: #fff;
+    animation: 0;
+}
+.content_booking {
+    /* position: relative; */
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    /* margin-left: 20%;
+    margin-top: 20px; */
+    background-color: #fff;
+}
+/* ROW 1: THÔNG TIN TOUR CẦN THANH TOÁN */
+.row_2 {
+    display: flex;
+    width: 100%;
+    height: 290px;
+    text-align: left;
+
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+.product_img {
+    width: 400px;
+    height: 290px;
+    border-radius: 10px 0 0 10px;
+}
+.product_2 {
+    margin-left: 30px;
+}
+/* TỔNG QUAN VỀ THÔNG TIN KHÁCH MUA TOUR */
+
+.row_3 {
+    position: relative;
+}
+
+/* THÔNG TIN LIÊN LẠC NGƯỜI ĐẶT VÉ */
+.row_3_left {
+    width: 800px;
+}
+.fill_info_block {
+    border: #f9f9f9;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6rem;
+    font-size: 1.1rem;
+}
+.input input {
+    width: 300px;
+    height: 30px;
+    margin: 5px 10px 10px 10px;
+    border-radius: 4px;
+    border: 0.5px solid #b4b2b2;
+}
+.input label {
+    margin: 0 10px;
+}
+/* input{
+    width: 300px;
+    height: 30px;
+    margin: 5px 10px 10px 10px;
+    border-radius: 4px ;
+    border:0.5px solid #b4b2b2;
+} */
+/* label{
+    margin: 0 10px;
+} */
+b {
+    color: crimson;
+}
+/* THÔNG TIN HÀNH KHÁCH CÓ VÉ */
+
+.fill_infor_passenger {
+    border: #f9f9f9;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    padding: 30px 30px;
+}
+.testing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.testing input {
+    display: none;
+    width: 270px;
+    height: 40px;
+    margin: 5px 10px 10px 10px;
+    border-radius: 4px;
+    border: 0.5px solid #b4b2b2;
+}
+.testing select {
+    display: none;
+    width: 100px;
+    height: 40px;
+    margin: 5px 10px 10px 10px;
+    border-radius: 4px;
+    border: 0.5px solid #b4b2b2;
+}
+.name_booked_block,
+.dateofbirth_booked_block {
+    width: 270px;
+    margin: 5px 10px 5px 10px;
+}
+.sex_booked_block {
+    width: 100px;
+    margin: 5px 10px 5px 10px;
+}
+/* THÊM FORM THÔNG TIN HÀNH KHÁCH MỚI KHI TĂNG SỐ LƯỢNG VÉ*/
+.form-container > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-container div input {
+    width: 270px;
+    height: 40px;
+    margin: 5px 10px 10px 10px;
+    border-radius: 4px;
+    border: 0.5px solid #b4b2b2;
+}
+.form-container div select {
+    width: 100px;
+    height: 40px;
+    margin: 5px 10px 10px 10px;
+    border-radius: 4px;
+    border: 0.5px solid #b4b2b2;
+}
+
+/* SỐ LƯỢNG HÀNH KHÁCH (SỐ LƯỢNG VÉ)*/
+.select_sticky_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.select {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 380px;
+    height: 60px;
+    border: 1px solid #b4b2b2;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin: 5px 0 15px 0;
+}
+.select_left {
+    margin: 0 10px;
+}
+.select_left_1 {
+    margin-bottom: 5px;
+}
+.select_left_2 {
+    margin-top: 0;
+}
+.select_right {
+    margin: 0 10px;
+    font-size: 1.4rem;
+}
+.sub_icon {
+    margin-right: 5px;
+    cursor: pointer;
+}
+.add_icon {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+/* GHI CHÚ */
+.Note {
+    border: 1px solid #f9f9f9;
+    padding: 20px 10px 10px 10px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+.tick {
+    display: flex;
+    align-items: center;
+    width: 33.333%;
+    margin: 5px 0 10px 0;
+}
+.Note_tick {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+input[type='checkbox'] {
+    display: none;
+}
+
+input[type='checkbox'] + label {
+    color: var(--text-color);
+}
+
+input[type='checkbox'] + label span {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    margin: -2px 10px 0 0;
+    vertical-align: middle;
+    border: 2px solid #b4b2b2;
+    cursor: pointer;
+    border-radius: 5px;
+}
+input[type='checkbox']:checked + label span {
+    background-color: #2064a0;
+    border: 1px solid #2064a0;
+}
+/* GHI CHÚ TEXT */
+.form-control {
+    background: #fff;
+    border: 1px solid #e7e7e7;
+    /* -webkit-box-sizing: border-box; */
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    padding: 20px 20px;
+    resize: none;
+    width: 100%;
+    height: 140px;
+}
+
+.note_text_title {
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+/* PHẦN THANH TOÁN */
+.row_3_right {
+    position: absolute;
+    width: 440px;
+    top: 0;
+    right: 0;
+    height: 764px;
+    border: 0.5px solid #b4b2b2;
+    background-color: #f9f9f9;
+}
+.row_3_right_main {
+    padding: 10px 20px;
+}
+.row_3_name {
+    display: flex;
+}
+.row_3_name_img {
+    width: 100px;
+    height: 70px;
+}
+/* HÌNH ẢNH TIÊU ĐỀ TOUR CẦN THANH TOÁN */
+
+.row_3_name_title {
+    margin: 0 0;
+    margin-left: 10px;
+}
+.row_3_name_img {
+    border-radius: 5px;
+}
+
+/* THỜI GIAN CỦA TOUR */
+.row_3_time {
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.start,
+.end {
+    display: flex;
+}
+.start_content::before {
+    content: '';
+    position: absolute;
+    height: 50%;
+    border-left: 0.5px dashed #2d4271;
+    top: 14px;
+    left: -20px;
+    z-index: 0;
+}
+.start_content {
+    top: 0;
+    left: 62px;
+}
+.date_start,
+.date_end {
+    margin: 0 0;
+}
+.start_icon {
+    position: absolute;
+    left: -25px;
+    top: 15px;
+    color: #2064a0;
+}
+.end_icon {
+    position: absolute;
+    left: -25px;
+    top: 86px;
+    color: #2064a0;
+}
+/* CÁC LOẠI VÉ VÀ GIÁ TIỀN */
+.row_3_rigth-3 {
+    margin-top: 30px;
+}
+.amount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.total_2 {
+    font-size: 25px;
+    color: #ff0013;
+}
+.row_3_payment {
+    width: 80%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1.4rem;
+    background-color: #ff0013;
+    color: #fff;
+    border: #ff0013;
+    cursor: pointer;
+    justify-content: center;
+    margin: 30px 10% 0 10%;
+    border-radius: 5px;
+    padding: 10px 0;
+}

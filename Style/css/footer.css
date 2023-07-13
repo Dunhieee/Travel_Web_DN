@@ -1,0 +1,85 @@
+.footer{
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    margin: 20px 0;
+
+}
+.footer_1{
+    position: relative;
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer_1-background{
+    background-color: var(--xanh);
+    color: #e4e6e8;
+}
+
+/* FOOTER_1 LEFT */
+.footer_1_left{
+    width: 35%;
+
+}
+.footer_1_left p{
+    margin: 10px 0 10px 0;
+}
+.img_footer{
+  margin: 10px 0;
+}
+.logo_footer{
+    margin-top: 15px;
+    font-size: 2rem;
+    height: 52px;
+    width: auto;
+}
+/* FOOTER_1 RIGHT */
+.footer_1_right{
+    line-height: 2rem;
+    
+}
+.right_1{
+    width: 10%;
+}
+.right_2{
+    width: 18%;
+}
+.right_3{
+    width: 30%;
+}
+.list{
+    list-style: none;
+    padding: 0 0;
+    margin: 0 0;
+}
+.list-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* FOOTER 2 */
+.footer_2{
+    position: relative;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+/* ẢNH BỘ CÔNG THƯƠNG */
+.footer_2_img-2{
+    width: 20%;
+}
+.connect{
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    align-items: center;
+}
+.footer_2-icon{
+    margin: 0 5px;
+    font-size: 2rem;
+    color: var(--text-color);
+}

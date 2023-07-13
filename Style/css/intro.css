@@ -1,0 +1,16 @@
+.content_intro{
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    width: 70%;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+h2{
+    text-align: center;
+    margin: 40px 0;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

@@ -1,0 +1,481 @@
+/* WRAPPER */
+.wrapper {
+    position: relative;
+}
+.title {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 150px;
+    width: 60%;
+    margin-left: 20%;
+    bottom: 0;
+    border-radius: 4px;
+}
+.tour_name {
+    color: var(--white-color);
+    line-height: 2;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 30px;
+    font-weight: 700;
+}
+
+/* BANNER */
+.banner_img {
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
+    margin-top: -100px;
+}
+/* CONTENT */
+.content_hot_tour {
+    position: relative;
+    width: 60%;
+    height: 100%;
+    margin-left: 20%;
+    margin-top: 20px;
+    background-color: #fff;
+}
+body {
+    background-color: #f5f5f5;
+}
+/* PICTURE */
+.mySlides {
+    display: none;
+}
+.picture {
+    margin: 10px 0 0 10px;
+    width: 800px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.Hot_tour_items_img_small {
+    display: flex;
+    width: 700px;
+    margin: 8px;
+}
+.picture_small {
+    margin: 0 2.5px 3px 2.5px;
+    width: 195px;
+    height: 150px;
+    object-fit: cover;
+}
+/* BOOKING */
+.hot_tour_booking {
+    border-radius: 3px;
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 3px 10px #afacac38;
+    width: 250px;
+    top: 10px;
+    right: 20px;
+    height: 280px;
+    text-align: center;
+    font-family: 'Tahoma', sans-serif;
+}
+.Booking {
+    margin-top: 10px;
+    color: var(--white-color);
+    background-color: #ff9800;
+    border: none;
+    border-radius: 3px;
+    padding: 16px 30px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    cursor: pointer;
+    width: 80%;
+}
+.link_Booking {
+    color: var(--white-color);
+    text-decoration: none;
+}
+.price_title {
+    margin-top: 20px;
+}
+.price {
+    color: #ff0013;
+    font-weight: bold;
+}
+.advise_hotline {
+    border: 1px solid #0f62ac;
+    border-radius: 3px;
+    width: 80%;
+    margin-top: 20px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.advise {
+    color: #0f62ac;
+    font-size: 1.4rem;
+    margin: 5px 0 10px 0;
+}
+.hotline {
+    margin-bottom: 10px;
+}
+/* ĐĂNG KÍ NHẬN ƯU ĐÃI FORM */
+.hot_tour_saleoff {
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 3px 10px #afacac38;
+    margin-top: 10px;
+    margin-left: 15px;
+    top: 310px;
+    right: 20px;
+    width: 250px;
+    height: 450px;
+    text-align: left;
+    font-family: 'Tahoma', sans-serif;
+    border-radius: 3px;
+}
+.form_saleoff {
+    margin-left: 10px;
+}
+.saleoff_title {
+    line-height: 1.4;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 10px 0;
+}
+.saleoff_hotline {
+    margin-left: 10px;
+}
+.saleoff_email {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.hotline_icon,
+.mail_icon {
+    color: #0f62ac;
+    margin: 10px 0 5px 0;
+}
+
+#saleoff_name {
+    margin: 5px 0;
+    width: 85%;
+    height: 20px;
+    border-radius: 3px;
+}
+#saleoff_email {
+    margin: 5px 0;
+    width: 85%;
+    height: 20px;
+    border-radius: 3px;
+}
+#saleoff_destination {
+    margin: 5px 0;
+    width: 85%;
+    height: 20px;
+    border-radius: 3px;
+}
+#saleoff_number {
+    margin: 5px 0;
+    width: 85%;
+    height: 20px;
+    border-radius: 3px;
+}
+/* #hide_1, #hide_2{
+    display: none;
+    color:#ff0013;
+    margin: 0 0;
+} */
+.send_saleoff {
+    background-color: #0f62ac;
+    color: #fff;
+    border: none;
+    font-size: 1.4rem;
+    line-height: 2;
+    width: 60%;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+/* ĐĂNG KÍ TƯ VẤN FORM */
+.modal_body_p1 {
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    height: 50px;
+}
+
+.modal_body_title_button {
+    text-align: end;
+    margin-right: 5px;
+    font-size: 1.6rem;
+    color: darkgray;
+    padding-top: -10px;
+    height: 26px;
+    margin-top: 2px;
+    margin-right: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+}
+.modal_body_title {
+    /* margin-left: 130px; */
+    width: 100%;
+    text-align: center;
+}
+.modal_body_form {
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 3px 10px #afacac38;
+    font-family: 'Tahoma', sans-serif;
+    border-radius: 3px;
+}
+.modal_body_main {
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 3px 10px #afacac38;
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 450px;
+    height: 470px;
+    /* text-align: left; */
+    font-family: 'Tahoma', sans-serif;
+    border-radius: 3px;
+}
+.form_dktv {
+    display: none;
+}
+
+/* CONTACT Form*/
+.form {
+    height: 200px;
+    margin-left: 20px;
+}
+.contact_title {
+    line-height: 1.4;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 20px 0;
+}
+.contact_hotline {
+    margin-left: 20px;
+}
+.contact_email {
+    margin-left: 20px;
+}
+.hotline_icon,
+.mail_icon {
+    color: #0f62ac;
+    margin: 10px 0 5px 0;
+}
+
+#name {
+    margin: 10px 0;
+    width: 80%;
+    height: 30px;
+    border-radius: 3px;
+}
+#email {
+    margin: 10px 0;
+    width: 80%;
+    height: 30px;
+    border-radius: 3px;
+}
+#hide_1,
+#hide_2 {
+    display: none;
+    color: #ff0013;
+    margin: 0 0;
+}
+.send {
+    background-color: #0f62ac;
+    color: #fff;
+    border: none;
+    font-size: 1.4rem;
+    line-height: 2;
+    margin-top: 20px;
+    margin-left: 90px;
+    width: 60%;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* SỐ CHỖ CÒN LẠI */
+.remain_seat {
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    width: 250px;
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 3px 10px #afacac38;
+    width: 250px;
+    top: 808px;
+    right: 20px;
+    font-family: 'Tahoma', sans-serif;
+    border-radius: 3px;
+    align-items: center;
+}
+.remain_title {
+}
+.remain_num {
+    line-height: 1.6;
+    font-size: 50px;
+    color: #ff0013;
+}
+/* THÔNG TIN TOUR */
+.infor_1 {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin-left: 10px;
+}
+.infor_2 {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin-left: 10px;
+}
+td {
+    padding-right: 20px;
+    padding-top: 10px;
+}
+table {
+    margin-left: 10px;
+    font-size: 1.3rem;
+    background: #ffeddf;
+    width: 800px;
+    height: 100px;
+}
+.table {
+    margin-left: 10px;
+    font-size: 1.3rem;
+    background: #ffeddf;
+    width: 800px;
+    height: 150px;
+    text-align: center;
+}
+.table_1 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+.table_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.table_css {
+    width: 160px;
+}
+/* GIỚI THIỆU TOUR */
+.into_hot_tour {
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* NHỮNG ĐỊA ĐIỂM THAM QUAN */
+.vist_location_title {
+    text-align: center;
+}
+.location_picture {
+    margin: 5px 2px 2px 10px;
+    width: 250px;
+    height: 175px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/*LỊCH TRÌNH */
+.schedule {
+    display: flex;
+}
+/* TÓM TẮT LỊCH TRÌNH */
+
+.day {
+    margin-left: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 34px;
+    padding-top: 34px;
+    width: 340px;
+}
+.day::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    border-left: 0.5px dashed #2d4271;
+    top: 0;
+    left: 52px;
+    z-index: 0;
+}
+.day_p1 {
+    width: 40px;
+}
+.day_p2 {
+    background: #0f62ac;
+    border: 1px solid #0f62ac;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    cursor: pointer;
+    text-decoration: none;
+}
+.day_p3 {
+    padding-left: 10px;
+    width: calc(100% - 64px);
+    display: flex;
+    flex-direction: column;
+    /* width: 360px; */
+}
+/* NOI DUNG LICH TRINH */
+
+.schedule_2 {
+    width: 700px;
+}
+.plan_day_main {
+    position: relative;
+    padding-left: 50px;
+}
+.plan_day_title {
+    margin-left: 20px;
+    line-height: 1.6;
+}
+.plan_day_main::before {
+    content: '';
+    position: absolute;
+    left: 32px;
+    height: 100%;
+    border-left: 0.5px dashed #0f62ac;
+}
+/* CHI PHÍ DỰ KIẾN*/
+.Cost_include {
+    display: flex;
+    justify-content: space-between;
+}
+.cost_title {
+    text-align: center;
+}
+.cost_main {
+    width: 450px;
+    margin-left: 20px;
+}
+.cost_title {
+    border-bottom: 1px solid;
+}
+.cost_1 {
+    margin-top: 30px;
+    border: 1px solid;
+    margin-left: 40px;
+    background-color: #ffeddf;
+}
+.cost_2 {
+    margin-top: 30px;
+    border: 1px solid;
+    margin-right: 40px;
+    background-color: #ffeddf;
+}

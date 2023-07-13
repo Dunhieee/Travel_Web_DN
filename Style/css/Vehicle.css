@@ -1,0 +1,112 @@
+
+/* PHẦN HEADER */
+.banner{
+    width: 100%;
+    margin-top: -100px;
+    object-fit: cover;
+    height: 600px;
+}
+
+/* PHẦN CONTENT */
+.content_vehicle{
+    position: relative;
+    width: 70%;
+    margin: auto;
+    /* margin-left: 20%;
+    margin-top: 20px; */
+    display: flex;
+    justify-content: space-between;
+}
+.content_left_main{
+    font-size: 1.4rem;
+    line-height: 2;
+}
+/* PHẦN CONTENT BÊN TRÁI _ GIỚI THIỆU */
+.content_left{
+    width: 60%;
+}
+/* PHẦN CONTENT BÊN PHẢI _ ĐẶT XE */
+.content_right_1{
+    background-color: #0f62ac;
+    height: 60px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.content_right{
+    position: relative;
+    width: 35%;
+}
+/* form */
+b{
+    color: crimson;
+}
+form{
+    border:  #f9f9f9;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    padding: 10px 10px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6rem;
+    font-size: 1.1rem;
+
+}
+.input label{
+    margin : 0 10px;
+    font-weight: bold;
+}
+
+#type{
+    width: 300px;
+    height: 30px;
+    margin: 5px 10px 10px 10px;
+    border-radius: 4px ;
+    border:0.5px solid #b4b2b2;
+}
+option{
+    width: 300px;
+    height: 30px;
+    margin: 5px 10px 10px 10px;
+    border-radius: 4px ;
+    border:0.5px solid #b4b2b2;
+    color: #0f62ac;
+}
+.input input{
+    width: 300px;
+    height: 30px;
+    margin: 5px 10px 10px 10px;
+    border-radius: 4px ;
+    border:0.5px solid #b4b2b2;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+.Send{
+    width: 100%;
+    height: 40px;
+    font-size: 1.2rem;
+    padding: 10px 10px;
+    border-radius: 4px ;
+    border:0.5px solid #0f62ac;
+    background-color: #0f62ac;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+/* thời gian thuê */
+#time_type{
+    width: 90px;
+    height: 30px;
+    border-radius: 4px ;
+    border:0.5px solid #b4b2b2;
+}
+.hide_1{
+    display: none;
+    color: crimson;
+    margin: 0 0 10px 20px;
+}
